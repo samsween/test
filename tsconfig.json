@@ -11,6 +11,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
+    "esModuleInterop": true,
+    "allowImportingTsExtensions": true,
     "incremental": true,
     "plugins": [
       {
