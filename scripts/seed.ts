@@ -3,7 +3,7 @@ import { Blog } from '../src/models/post.ts';
 import dotenv from 'dotenv'
 dotenv.config()
 
-const MONGODB_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/mydatabase';
+const MONGODB_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/test';
 
 const seedData = async () => {
   try {
