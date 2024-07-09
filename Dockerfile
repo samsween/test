@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY package*.json ./
 
-RUN npm install
+CMD ["npm", "install"]
 
 # Copy the local code to the container image.
 COPY . .
